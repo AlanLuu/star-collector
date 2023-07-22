@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #66c4a8;
+    font-family: 'Pt Serif', sans-serif;
+}
+
+p {
+    font-size: 19px;
+}
+
+#game {
+    margin-top: 35px;
+}
+
+#loadingdiv p, .bottom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#loadingdiv p {
+    padding: 0;
+    text-align: center;
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 95vh;
+}
+
+.bottom a:link, .bottom a:visited {
+    color: #000;
+    background-color: inherit;
+    padding: 1px;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.bottom a:hover {
+    opacity: 0.7;
+}
+
+.bottom {
+    font-size: 15px;
+    text-align: center;
+}
